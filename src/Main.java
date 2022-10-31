@@ -56,5 +56,13 @@ public class Main {
         System.out.println("Общий вес боксеров " + generalWeight + " кг.");
         var differenceWeight = firstBoxersWeight - secondBoxersWeight;
         System.out.println("Разница между весами бойцов " + differenceWeight + " кг.");
+
+        //Task 7
+        System.out.println("Task 7");
+        differenceWeight = secondBoxersWeight - firstBoxersWeight;
+        System.out.println("Разница между весами бойцов " + differenceWeight + " кг.");
+        differenceWeight = secondBoxersWeight % firstBoxersWeight;
+        System.out.println("Разница между весами бойцов " + differenceWeight + " кг.");
+
     }
 }
