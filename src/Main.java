@@ -64,5 +64,14 @@ public class Main {
         differenceWeight = secondBoxersWeight % firstBoxersWeight;
         System.out.println("Разница между весами бойцов " + differenceWeight + " кг.");
 
+        // Task 8
+        System.out.println("Task 8");
+        var generalHour = 640;
+        var workHour = 8;
+        var workers = generalHour / workHour;
+        System.out.println("Всего работников в компании " + workers);
+        workers = workers + 94;
+        workHour = generalHour / workers;
+        System.out.println("Если в компании работает " + workers + " человек, то всего " + workHour + " часов работы может быть поделено между сотрудниками");
     }
 }
