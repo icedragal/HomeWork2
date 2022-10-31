@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-    // Приступил к ДЗ
+        // Приступил к ДЗ
         //Task1
         System.out.println("Task 1");
         var dog = 8.0;
-        var cat =3.6;
+        var cat = 3.6;
         var paper = 763789;
         System.out.println(dog);
         System.out.println(cat);
@@ -47,5 +47,14 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+
+        //Task 6
+        System.out.println("Task 6");
+        var firstBoxersWeight = 78.2;
+        var secondBoxersWeight = 82.7;
+        var generalWeight = firstBoxersWeight + secondBoxersWeight;
+        System.out.println("Общий вес боксеров " + generalWeight + " кг.");
+        var differenceWeight = firstBoxersWeight - secondBoxersWeight;
+        System.out.println("Разница между весами бойцов " + differenceWeight + " кг.");
     }
 }
